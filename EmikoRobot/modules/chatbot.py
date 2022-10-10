@@ -5,7 +5,7 @@ import re
 import aiohttp
 from googletrans import Translator as google_translator
 from pyrogram import filters
-from aiohttp import ClientSession
+from aiohttp import 
 from EmikoRobot import BOT_USERNAME as bu
 from EmikoRobot import BOT_ID, pbot, arq
 from EmikoRobot.ex_plugins.chatbot import add_chat, get_session, remove_chat
@@ -439,4 +439,4 @@ __help__ = """
 ❂ /chatbot EN : Enables English only chatbot.
 """
 
-__mod_name__ = "Chatbot"
+
